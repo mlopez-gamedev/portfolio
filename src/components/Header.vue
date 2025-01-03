@@ -2,8 +2,8 @@
   <div class="header">
     <div class="nav-bar">
       <router-link to="/">About me</router-link>
-      <router-link to="/game-projects">Stuff</router-link>
-      <router-link to="/other-projects">Other stuff</router-link>
+      <router-link to="/game-projects">Games</router-link>
+      <!-- <router-link to="/other-projects">Other Projects</router-link> -->
       <router-link to="/resume">Resume</router-link>
       <router-link to="/contact">Contact</router-link>
     </div>
@@ -28,7 +28,6 @@ export default Vue.extend({
 .header {
   width: 100%;
 }
-
 .nav-bar {
   text-align: right;
   padding: 20px;
@@ -42,11 +41,16 @@ a {
   padding-bottom: 8px;
   white-space: nowrap;
   display: inline-block;
+  color: @textColor;
+  opacity: 0.5;
 }
+
+
 
 .router-link-exact-active {
   border: 0px solid @textColor;
   border-bottom-width: 2px;
+  opacity: 1;
 }
 
 @media only screen and (max-width: 620px){

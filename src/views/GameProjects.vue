@@ -1,15 +1,17 @@
 <template>
   <div>
-    <h1>Stuff</h1>
+    <h1>Games</h1>
 
     <div style="margin-bottom: 30px;">
-      The following are some stuff I've made or heavily contributed to.
+      The following are the key projects I've been involved in throughout my career.
     </div>
 
     <ProjectsList v-bind:projects="projects" />
 
-    <div style="margin-top: 20px;">
-      There is more to see on <a target="_blank" href="https://someexternalwebsite.com">some external website</a>
+    <h3>Is that all there is?</h3>
+    <div>
+      Far from it! You can check out all my game jams and side projects on <a target="_blank" href="https://neowedge.itch.io">my <span class="fa fa-gamepad" />itch.io</a>.<br />
+      Over <strong>40 games</strong> waiting for you!
     </div>
   </div>
 </template>

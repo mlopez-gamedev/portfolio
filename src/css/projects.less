@@ -15,30 +15,76 @@
         min-height: 300px;
     }
 
-    .phone-screenshot {
+    .horizontal-screenshot {
         width: 100%;
     }
 
-    .pc-screenshot {
+    .vertical-screenshot {
         width: 100%;
     }
 
     .notice {
-        border:1px solid rgb(0, 85, 0);
-        background-color: rgb(144, 196, 144);
-        color: rgb(1, 99, 1);
+        border:1px solid #D8000C;
+        border-radius: 12px;
+        background-color: #FFBABA;
+        color: #D8000C;
         padding: 10px;
+        text-align: center;
     }
 
     a {
-        color:#696969;
-        opacity: 1;
         text-decoration: underline;
     }
     
-    a:hover {
-        opacity: 0.6;
+    a img {
+        transition: all 0.2s;
     }
+    
+    a img:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    .project-card {
+        background-color: #fff5;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .info-grid {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .info-column {
+        width: calc(50% - 25px); /* Deja 50px de espacio en el centro */
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .info-item {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #e0e0e0;
+        padding-bottom: 5px;
+    }
+
+    .info-tags {
+        text-align: center;
+        padding-top: 20px;
+        font-style: italic;
+    }
+
+    .label {
+        font-weight: bold;
+    }
+    
+    //.value {
+    //    color: #777777;
+    //}
 
     @media only screen and (min-width: 620px){
         iframe.youtube {
@@ -46,14 +92,31 @@
             height: 409px;
         }
 
-        .phone-screenshot {
-            margin: 15px;
-            width : 300px;
+        .horizontal-screenshot {
+            margin: 10px;
+            width : 435px;
         }
     
-        .pc-screenshot {
-            margin: 15px;
-            width : 400px;
+        .vertical-screenshot {
+            margin: 10px;
+            width : 280px;
+        }
+    }
+    
+    @media only screen and (max-width: 920px) {
+        .info-grid {
+            flex-direction: column;
+            width: 90%;
+            gap: 10px;
+        }
+
+        .info-column {
+            width: 100%; /* Columnas ocupan todo el ancho */
+        }
+
+        .info-item {
+            justify-content: space-between;
+            gap: 10px;
         }
     }
 }

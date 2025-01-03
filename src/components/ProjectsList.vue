@@ -9,11 +9,11 @@
               :class="{ 'wide': project.isWide, 'high': project.isHigh }">
             <div class="project-item-image" :style="{ 'background-image': 'url(' + project.iconUrl + ')' }">
             </div>
-            <div class="title-bar" :style="{ 'background-color': project.accentColor + 'DD' }">
+            <!-- <div class="title-bar" :style="{ 'background-color': project.accentColor + 'DD' }">
                 <div class="title-text">
                   {{ project.name }}
                 </div>
-              </div>
+              </div> -->
           </div>
         </template>
       </div>
@@ -73,6 +73,7 @@ export default Vue.extend({
   cursor: pointer;
   position: relative;
   overflow: hidden;
+  border-radius: 12px;
 }
 
 .project-item-image {

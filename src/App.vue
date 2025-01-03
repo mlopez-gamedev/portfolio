@@ -63,12 +63,11 @@ h1, h2, h3, h4, h5 {
 }
 
 a {
-  color: @textColor;
+  color: @linkColor;
   text-decoration: none;
-  opacity: 0.5;
 }
 a:hover, .router-link-exact-active {
-  opacity: 1;
+  color: @linkColorHover;
 }
 
 h1 {
@@ -93,7 +92,7 @@ h1 {
 
   h1 {
     margin-top: 0.67em;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     line-height: 0.7em;
   }
 

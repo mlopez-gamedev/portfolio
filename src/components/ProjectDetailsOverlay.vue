@@ -1,16 +1,13 @@
 <template>
   <transition name="fade">
     <div v-if="visible">
-      <div class="overlay">
+      <div class="overlay" @click="$emit('close')" >
       </div>
       <div class="dialog" :style="{ 'background-color': color }">
         <h1 class="dialog-title">{{ title }}</h1>
         <div @click="$emit('close')" class="dialog-close"><i class="fa fa-times fa-lg fa-fw"></i></div>
         <div class="dialog-content">
           <div v-html="htmlContent"></div>
-          <div class="dialog-bottom">
-          <a @click="$emit('close')" class="dialog-close-button">Close</a>
-        </div>
         </div>
       </div>
     </div>
@@ -74,7 +71,7 @@ h1.dialog-title {
 }
 
 .dialog-content {
-  background-color: #fcfcfc;
+  background-color: #ffffffe0;
   color: #696969;
 }
 .dialog-close {
@@ -113,7 +110,7 @@ a.dialog-close-button {
   }
 
   .dialog-content {
-    padding: 40px;
+    padding: 20px 40px 40px 40px; 
   }
 }
 

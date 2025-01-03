@@ -21,9 +21,9 @@ export default [
         </div>
 
         <div class="paragraph center">
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" />
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" />
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" /> 
+          <img class="vertical-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" />
+          <img class="vertical-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" />
+          <img class="vertical-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" /> 
         </div>
     `, "#c10606", false, true),
     new ProjectData("project-7", "Drew Blood", "img/projects/project-7-icon.png", `
@@ -49,9 +49,9 @@ export default [
             </div>
 
             <div class="paragraph center">
-                <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" />
-                <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" />
-                <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" /> 
+                <img class="vertical-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" />
+                <img class="vertical-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" />
+                <img class="vertical-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" /> 
             </div>`, "#1ca1e2"),
     new ProjectData("project-8", "The Art of Walking", "img/projects/project-8-icon.png", `
     <div class="paragraph">
@@ -79,8 +79,8 @@ export default [
             </div>
 
             <div class="paragraph center">
-                <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="The Art of Walking Screenshot" />
-                <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="The Art of Walking Screenshot" />
+                <img class="horizontal-screenshot" src="https://fakeimg.pl/300x534/" alt="The Art of Walking Screenshot" />
+                <img class="horizontal-screenshot" src="https://fakeimg.pl/300x534/" alt="The Art of Walking Screenshot" />
             </div>`),
     new ProjectData("project-9", "Nikolable", "img/projects/project-9-icon.png", `
      <div class="paragraph">
