@@ -55,7 +55,7 @@ html, body {
 
   font-size: 1.1em;
   line-height: 1.6em;
-  text-align: justify;
+  text-align: left;
 }
 
 h1, h2, h3, h4, h5 {
@@ -83,8 +83,14 @@ h1 {
     padding: 12px;
   }
 
-@media only screen and (min-width: 620px){
+@media only screen and (max-width: 620px) {
+  html {
+    font-size: 75%;
+  }
+}
 
+@media only screen and (min-width: 620px){
+  
   #app {
     text-align: left;
     line-height: 1.8em;

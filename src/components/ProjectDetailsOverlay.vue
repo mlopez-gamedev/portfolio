@@ -64,6 +64,7 @@ h1.dialog-title {
     font-size: 1.3em;
     margin: 0px;
     padding: 22px;
+    padding-right:60px;
 }
 
 .dialog-content {
@@ -109,6 +110,10 @@ a.dialog-close-button {
     font-size: 1.6em;
   }
 
+  .dialog-close {
+    top: 15px;
+  }
+  
   .dialog-content {
     padding: 20px 40px 40px 40px; 
   }

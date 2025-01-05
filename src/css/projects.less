@@ -80,12 +80,24 @@
 
     .label {
         font-weight: bold;
+        white-space: nowrap;
     }
     
-    //.value {
-    //    color: #777777;
-    //}
+    .value {
+        text-align: right;
+    }
 
+    .project-links {
+        display: flex;
+        justify-content: center;
+        gap: 50px; /* Separación inicial de 50px */
+        flex-wrap: wrap; /* Permite que los elementos se muevan a la siguiente línea si es necesario */
+    }
+
+    .project-links a {
+        display: inline-block;
+    }
+    
     @media only screen and (min-width: 620px){
         iframe.youtube {
             max-width: 728px;
@@ -117,6 +129,17 @@
         .info-item {
             justify-content: space-between;
             gap: 10px;
+        }
+
+        .project-links {
+            gap: 30px; /* Reduce la separación a 30px */
+        }
+    }
+
+    @media (max-width: 620px) {
+        .project-links {
+            flex-direction: column; /* Cambia la dirección de los elementos a columna */
+            gap: 3px; /* Espaciado entre los elementos en una sola columna */
         }
     }
 }

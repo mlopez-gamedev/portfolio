@@ -44,9 +44,9 @@ export default [
     <div class="paragraph center">
         <iframe class="youtube" src="https://www.youtube.com/embed/BdKQvvy49bM" frameborder="0" allowfullscreen></iframe>
     </div>
-    <div class="paragraph center">
-        <a style="margin-right:50px" href="https://store.playstation.com/es-ar/product/UP5992-PPSA13207_00-0463658556330970" target="_blank"><img src="img/projects/play-station-store.png" alt="Play Station badge" /></a> 
-        <a style="margin-right:50px" href="https://www.meta.com/es-es/experiences/les-mills-bodycombat/4015163475201433/" target="_blank"><img src="img/projects/meta-quest-store.png" alt="Meta Quest badge" /></a>
+    <div class="paragraph center project-links">
+        <a href="https://store.playstation.com/es-ar/product/UP5992-PPSA13207_00-0463658556330970" target="_blank"><img src="img/projects/play-station-store.png" alt="Play Station badge" /></a> 
+        <a href="https://www.meta.com/es-es/experiences/les-mills-bodycombat/4015163475201433/" target="_blank"><img src="img/projects/meta-quest-store.png" alt="Meta Quest badge" /></a>
         <a href="https://www.picoxr.com/global/games/les-mills-bodycombat" target="_blank"><img src="img/projects/pico-xr-store.png" alt="Pico XR badge" /></a>
     </div>
 
@@ -109,8 +109,8 @@ export default [
     <div class="paragraph center">
         <iframe class="youtube" src="https://www.youtube.com/embed/OWPfWhHYzAc" frameborder="0" allowfullscreen></iframe>
     </div>
-        <div class="paragraph center">
-        <a style="margin-right:50px" href="https://play.google.com/store/apps/details?id=com.vivastudios.match.merge.idle.delivery.tycoon.simulator" target="_blank"><img src="img/projects/play-store.png" alt="Meta Quest badge" /></a>
+        <div class="paragraph center project-links">
+        <a href="https://play.google.com/store/apps/details?id=com.vivastudios.match.merge.idle.delivery.tycoon.simulator" target="_blank"><img src="img/projects/play-store.png" alt="Meta Quest badge" /></a>
         <a href="https://apps.apple.com/app/idle-fast-food-delivery-tycoon/id6443563880" target="_blank"><img src="img/projects/app-store.png" alt="Pico XR badge" /></a>
     </div>
     <div class="paragraph">
@@ -152,13 +152,13 @@ export default [
             <div class="info-item">
               <span class="label">Publisher</span>
               <span class="value">Genera Games</span>
-            </div>
+            </div> 
             <div class="info-item">
               <span class="label">Developer</span>
               <span class="value">Koron Studios</span>
             </div>
             <div class="info-item">
-              <span class="label">Main role</span>
+              <span class="label">Role</span>
               <span class="value">Game programmer</span>
             </div>
           </div>
@@ -174,8 +174,8 @@ export default [
     <div class="paragraph center">
         <iframe class="youtube" src="https://www.youtube.com/embed/gL3ZBJ_Ucl0" frameborder="0" allowfullscreen></iframe>
     </div>
-    <div class="paragraph center">
-        <a style="margin-right:50px" href="https://play.google.com/store/apps/details?id=com.generagames.idle.fish.inc.tycoon" target="_blank"><img src="img/projects/play-store.png" alt="Meta Quest badge" /></a>
+    <div class="paragraph center projects-link">
+        <a href="https://play.google.com/store/apps/details?id=com.generagames.idle.fish.inc.tycoon" target="_blank"><img src="img/projects/play-store.png" alt="Meta Quest badge" /></a>
         <a href="https://apps.apple.com/app/idle-fish-inc-tycoon-game/id1606704781" target="_blank"><img src="img/projects/app-store.png" alt="Pico XR badge" /></a>
     </div>
     
@@ -239,8 +239,8 @@ export default [
     <div class="paragraph center">
         <iframe class="youtube" src="https://www.youtube.com/embed/ngCsyFWpTEM" frameborder="0" allowfullscreen></iframe>
     </div>
-    <div class="paragraph center">
-        <a style="margin-right:50px" href="https://play.google.com/store/apps/details?id=com.generagames.deathtycoon" target="_blank"><img src="img/projects/play-store.png" alt="Meta Quest badge" /></a>
+    <div class="paragraph center projects-link">
+        <a href="https://play.google.com/store/apps/details?id=com.generagames.deathtycoon" target="_blank"><img src="img/projects/play-store.png" alt="Meta Quest badge" /></a>
         <a href="https://apps.apple.com/app/death-idle-tycoon-clicker-game/id1603083419" target="_blank"><img src="img/projects/app-store.png" alt="Pico XR badge" /></a>
     </div>
 
@@ -312,7 +312,7 @@ export default [
     <div class="paragraph center">
         <iframe class="youtube" src="https://www.youtube.com/embed/R1VwmYYd4jA" frameborder="0" allowfullscreen></iframe>
     </div>
-    <div class="paragraph center">
+    <div class="paragraph center projects-link">
         <a href="https://store.playstation.com/es-ar/product/UP1169-CUSA05615_00-ARCADELAND000001/" target="_blank"><img src="img/projects/play-station-store.png" alt="Play Station badge" /></a> 
     </div>
 
