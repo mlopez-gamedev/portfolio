@@ -370,7 +370,6 @@ h4 {
 }
 
 .timeline-section {
-  margin-bottom: 30px;
   display: flex;
 }
 
@@ -396,6 +395,10 @@ h4 {
 
 .full-content div {
   max-width: 1000px;
+}
+
+.skill-set {
+  display: inline-block;
 }
 
 .skill-set h3 {
@@ -449,7 +452,7 @@ h4 {
   .paragraph {
     float: left;
   }
-
+  
   .photo {
     float: right;
     padding-left: 80px;

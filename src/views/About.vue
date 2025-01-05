@@ -2,6 +2,10 @@
   <div style="margin-bottom: 80px;">
     <h1>Howdy, friend!</h1>
 
+    <div class="photo">
+      <img src="img/avatar.png" alt="Hand drawing of Miguel having a coffee, by Miriam Pérez" title="It's-a-me, Miguel! By Miriam Pérez" />
+    </div>
+
     <div class="paragraph">
       <div class="paragraph">
         I’m <strong>Miguel López</strong>, a game developer and programmer based in <strong>Sevilla</strong>, passionate about bringing ideas to life. I’m all about Unity, but I don’t just stick to programming or just Unity—I’m involved in every aspect of creating games.
@@ -18,10 +22,6 @@
       <div style="margin-top: 20px;">
         When I’m not coding, you’ll find me smashing padel balls, soaking up the sun on a terrace with friends, or jumping into a game jam to experiment with fresh ideas and ways to create awesome games.
       </div>
-    </div>
-    
-    <div class="photo">
-      <img src="img/avatar.png" alt="Hand drawing of Miguel having a coffee, by Miriam Pérez" title="It's-a-me, Miguel! By Miriam Pérez" /> 
     </div>
 
     <div style="clear:both"></div>
@@ -51,7 +51,7 @@
   }
 
   .photo {
-    float: left;
+    float: right;
     padding-left: 60px;
   }
 }

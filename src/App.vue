@@ -87,6 +87,9 @@ h1 {
   html {
     font-size: 75%;
   }
+  ul {
+    padding-left: 20px;
+  }
 }
 
 @media only screen and (min-width: 620px){
